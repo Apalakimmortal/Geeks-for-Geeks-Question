@@ -1,0 +1,15 @@
+class Solution{
+     public:
+    int findElementAtIndex(int a[], int n, int key) 
+    {
+        int ans;
+        for(int i = 0;i<n;i++)
+        {
+            if(key == i)
+            {
+                ans = a[i];
+            }
+        }
+        return ans;
+    }
+};
