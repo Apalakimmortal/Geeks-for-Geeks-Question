@@ -1,0 +1,15 @@
+class Solution{
+    public:
+    int leftElement(int a[], int n) {
+        sort(a,a+n);
+        int s = 0;
+        int e = n - 1;
+        
+        while(s<e)
+        {
+            s++;
+            e--;
+        }
+        return a[e];
+    }
+};
