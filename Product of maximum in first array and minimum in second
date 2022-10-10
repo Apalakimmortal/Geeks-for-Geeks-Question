@@ -1,0 +1,11 @@
+class Solution{
+    public:
+        long long find_multiplication(int a[], int b[], int n, int m)
+    {
+        int maxi = *max_element(a,a+n);
+        int mini = *min_element(b,b+m);
+        int ans;
+        ans = maxi * mini;
+        return ans;
+    }
+};
