@@ -1,0 +1,7 @@
+class Solution{   
+public:
+    int maxDays(int arr[],int n){
+        int maxi = *max_element(arr,arr+n);
+        return maxi;
+    }
+};
